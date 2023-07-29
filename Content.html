@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <div class="container">
+      <!--Inicio del menú-->
+      <nav class="navbar navbar-expand-lg" style="background-color: blanchedalmond;">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="index.html">
+            <img src="/img/logo-sena.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Inicio
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Content.html">Content</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Forms.html">Forms</a>
+              </li>
+
+              <!--
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              -->
+              
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+      <!--Fin del menú-->
+      <h1>TYPOGRAPHY</h1><br>
+      <p class="h1">h1. Título de prueba</p>
+      <p class="h2">h2. Título de prueba</p>
+      <p class="h3">h3. Título de prueba</p>
+      <p class="h4">h4. Título de prueba</p>
+      <p class="h5">h5. Título de prueba</p>
+      <p class="h6">h6. Título de prueba</p>
+      <br>
+      <h3>
+        La clase text-body-secondary 
+        <small class="text-body-secondary">difumina un texto específico</small>
+      </h3>
+      <br>
+      <h1 class="display-1">Título 1</h1>
+      <h1 class="display-2">Título 2</h1>
+      <h1 class="display-3">Título 3</h1>
+      <h1 class="display-4">Título 4</h1>
+      <h1 class="display-5">Título 5</h1>
+      <h1 class="display-6">Título 6</h1>
+      <br>
+      <p class="lead">
+        Este párrafo destaca entre los demás normales.
+      </p>
+      <br>
+      <p>La etiqueta "mark" resalta un <mark>texto</mark> en color amarillo.</p>
+      <p><del>Se trata de un texto eliminado</del></p>
+      <p><s>Es una línea de texto inexacto</s></p>
+      <p><ins>Se refiere a un añadido al documento</ins></p>
+      <p><u>Es una línea de texto subrayada</u></p>
+      <p><small>Debe considerarse como letra pequeña</small></p>
+      <p><strong>Ejemplo de texto en negrita</strong></p>
+      <p><em>Línea de texto en cursiva</em></p>
+      <br>
+      <!--La etiqueta abbr sirve para definir una abreviatura-->
+      <p><abbr title="Agencia Central de Inteligencia">CIA</abbr></p> 
+      <p><abbr title="Ministerio de Seguridad del Estado" class="initialism">MSS</abbr></p>
+      <br>
+      <figure>
+        <blockquote class="blockquote">
+          <p>Recordar es fácil para quien tiene memoria. Olvidar es difícil para el que tiene corazón.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Gabriel García Márquez,<cite title="Source Title">en 1997</cite>
+        </figcaption>
+      </figure>
+      <br>
+      <ul class="list-unstyled">
+        <li>Esta es una lista.</li>
+        <li>Parece no tener estilo.</li>
+        <li>Que estructuralmente, sigue siendo una lista.</li>
+        <li>Sin embargo, este estilo sólo se aplica a los elementos hijos inmediatos.</li>
+        <li>Lista nueva:
+          <ul>
+            <li>Ronaldo Nazario</li>
+            <li>Ronaldinho Gaucho</li>
+            <li>Djalma Santos</li>
+          </ul>
+        </li>
+        <li>Puede resultar útil en algunos casos</li>
+      </ul>
+      <br>
+      <dl class="row">
+        <dt class="col-sm-4">Lista de descripciones</dt>
+        <dd class="col-sm-8">Lista de descripción perfecta para definir términos.</dd>
+      
+        <dt class="col-sm-4">dl</dt>
+        <dd class="col-sm-8">
+          <p>Sirve para identificar la tabla.</p>
+          <p>Y posteriormente poner los</p>
+        </dd>
+      
+        <dt class="col-sm-4">dt</dt>
+        <dd class="col-sm-8">Que sirven para definir un término.</dd>
+      
+        <dt class="col-sm-4 text-truncate">dd</dt>
+        <dd class="col-sm-8">Es para poner una definición al dt.</dd>
+      
+        <dt class="col-sm-4">Anidada</dt>
+        <dd class="col-sm-8">
+          <dl class="row">
+            <dt class="col-sm-5">Lista de definición anidada</dt>
+            <dd class="col-sm-7">Sirve para poner dos o más términos a definir.</dd>
+          </dl>
+        </dd>
+      </dl>
+      <br>
+      <img src="/img/playa-de-noche.jpg" class="img-fluid" alt="..." width="500px">
+      <br><br>
+      <img src="/img/nebulosa.avif" class="img-thumbnail" alt="..." width="500px">
+      <br><br>
+      <img src="/img/bosque.jpg" class="rounded float-start" alt="..." width="300px">
+      <img src="/img/bosque-rio.jpg" class="rounded float-end" alt="..." width="300px">
+      <br>
+      <table class="table table-bordered border-primary">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td class="table-danger" colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <figure class="figure">
+        <img src="/img/sentry.webp" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Sentry de Marvel.</figcaption>
+      </figure>
+    </div>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
